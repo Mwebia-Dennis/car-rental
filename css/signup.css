@@ -1,0 +1,157 @@
+      body{
+        background-image: url('images/background1.jpg');
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+      }
+       .top-nav{
+              width: 100%;
+              background-color: #000000;
+              height: 112px;
+            }
+
+            .logo{
+              width: 300px;
+              font-family: forte;
+              padding: 5px;
+              margin-top: 10px;
+              margin-left: 20px;
+              float: left;
+            }
+            .logo a{
+
+              text-decoration: none;
+              list-style-type: none;
+            }
+             .logo a h2{
+              color: forestgreen;
+              font-size: 60px;
+            }
+            .main-nav{
+
+              width: 700px;
+              padding: 5px;
+              float: left;
+            }
+            .main-nav ul{
+              display: inline-flex;
+              margin: 10px;
+              padding: 20px;
+            }
+            .main-nav ul li{
+              list-style-type: none;
+              padding: 5px;
+              margin-left: 60px;
+              text-decoration: none;
+            }
+            .main-nav ul li:hover{
+
+              border-bottom: 1px solid #fff;
+            }
+            .main-nav ul li a{
+
+              font-size: 20px;
+              color: #fff;
+              text-decoration: none;
+              font-family: sans-serif;
+            }
+            .right-nav{
+              float: right;
+              margin-right: 50px;
+              margin-top: 10px;
+            }
+            .right-nav ul{
+              display: inline-flex;
+              margin: 10px;
+              padding: 20px;
+            }
+            .right-nav ul li{
+              list-style-type: none;
+              padding: 5px;
+              margin-left: 60px;
+              text-decoration: none;
+            }
+            .right-nav ul li:hover{
+
+              border-bottom: 1px solid #fff;
+            }
+            .right-nav ul li a{
+
+              font-size: 20px;
+              color: forestgreen;
+              text-decoration: none;
+              font-family: sans-serif;
+            }
+            .container{
+              width: 40%;
+              margin-top: 20px; 
+            }
+            form{
+              background-color: #f0f0f0;
+              color: #999;
+              border-radius: 3px;
+              box-shadow: 0px 0px 2px #d3d3d3;
+              padding: 20px;
+            }
+            .signup-top{
+              text-align: center;
+              background-color: green;
+              padding: 15px;
+              color: white;
+              line-height: normal;
+            }
+            .signup-top h2{
+              font-family: algerian;
+              font-size: 38px;
+            }
+            .signup-top h3{
+
+              font-size: 20px;
+            }
+
+            .form-group{
+              height: 80px;
+              padding: 5px;
+              width: 100%;
+              margin-left: 18px;
+            }
+            .form-group label{
+              width: 80%;
+            }
+            .form-group .input{
+              width: 85%;
+              margin: 2px 5px;
+              padding: 10px;
+              border: 1px solid #d3d3d3;
+              border-radius: 3px;
+            }
+            .form-group #terms{
+
+              width: 20px;
+              margin: 10px 10px 0 10px;
+            }
+            .form-group #terms-label a{
+
+              font-size: 15px;
+              color: green;
+            }
+            .form-group .sign-up-btn{
+
+              width: 85%;
+              background-color: green;
+              font-size: 20px;
+              color: #fff;
+              padding: 5px;
+              border: 1px solid green;
+              border-radius: 3px;
+
+            }
+            .form-group .text{
+
+              font-size: 14px;
+              color: green;
+              text-align: center;
+              margin-right: 60px;
+            }
+

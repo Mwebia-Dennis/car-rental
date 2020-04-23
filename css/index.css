@@ -1,0 +1,428 @@
+ /*---------------------------navigation bar--------------------------------------------*/
+      
+          .top-nav{
+              width: 100%;
+              background-color: #000000;
+              height: 112px;
+            }
+
+            .logo{
+              width: 300px;
+              font-family: forte;
+              padding: 5px;
+              margin-top: 10px;
+              margin-left: 20px;
+              float: left;
+            }
+            .logo a{
+
+              text-decoration: none;
+              list-style-type: none;
+            }
+             .logo a h2{
+              color: forestgreen;
+              font-size: 60px;
+            }
+            .main-nav{
+
+              width: 700px;
+              padding: 5px;
+              float: left;
+            }
+            .main-nav ul{
+              display: inline-flex;
+              margin: 10px;
+              padding: 20px;
+            }
+            .main-nav ul li{
+              list-style-type: none;
+              padding: 5px;
+              margin-left: 60px;
+              text-decoration: none;
+            }
+            .main-nav ul li:hover{
+
+              border-bottom: 1px solid #fff;
+            }
+            .main-nav ul li a{
+
+              font-size: 20px;
+              color: #fff;
+              text-decoration: none;
+              font-family: sans-serif;
+            }
+            .right-nav{
+              float: right;
+              margin-right: 50px;
+              margin-top: 10px;
+            }
+            .right-nav ul{
+              display: inline-flex;
+              margin: 10px;
+              padding: 20px;
+            }
+            .right-nav ul li{
+              list-style-type: none;
+              padding: 5px;
+              margin-left: 60px;
+              text-decoration: none;
+            }
+            .right-nav ul li:hover{
+
+              border-bottom: 1px solid #fff;
+            }
+            .right-nav ul li a{
+
+              font-size: 20px;
+              color: forestgreen;
+              text-decoration: none;
+              font-family: sans-serif;
+            }
+            .right-nav .btn-danger{
+
+              margin-top: 30px !important;
+            }
+
+
+/*---------------------------Slider--------------------------------------------*/
+            .slider{
+
+              width: 100%;
+              margin: 0,5px;
+              margin-right: 5px;
+              z-index: -1;
+              position: relative;
+            }
+
+            .carousel{
+              
+              box-shadow: 2px 2px 2px 2px #d3d3d3;
+
+            }
+            .carousel-item img{
+
+              height: 500px;
+            }
+            .carousel-caption{
+
+              margin-bottom: 50px;
+            }
+            .slider-text{
+              padding: 0 10px;
+              color: white;
+              font-size: 50px;
+              font-family: elephant;
+              font-weight: bold;
+
+            }
+            .slider-info{
+              color: #fff;
+              font-size: 30px;
+              
+            }
+
+
+            /*-----------form serach car----*/
+            .search-form{
+
+              width: 90%;
+              padding: 60px;
+              text-align: center;
+              margin-bottom: 20px;
+            }
+            .search-form form{
+
+              margin-left: 13%;
+            }
+            .search-form h2{
+
+              color: black;
+              font-weight: bold;
+            }
+            .input-field{
+
+              width: 300px;
+              height: 50px;
+              margin-left: 40px;
+              float: left;
+            }
+            .input-field label{
+
+              font-size: 25px;
+              padding: 10px;
+              color: green;
+              font-weight: bold;
+            }
+            .input-field select{
+
+              padding: 10px;
+              width: 90%;
+              font-size: 20px;
+              font-family: sans-serif;
+            }
+            .search{
+
+              margin: 10px;
+              margin-top: 35px;
+              width: 200px;
+              background: green;
+              font-size: 20px;
+              padding: 10px;
+              color: white;
+              border:0;
+              border-radius: 5px;
+
+            }
+
+
+
+            /*---------------------------new categories--------------------------------------------*/
+            .new-categories{
+              width: 100%;
+              padding: 20px;
+            }
+            .new-categories hr{
+
+              color: #000000;
+            }
+            .new-categories .product-top{
+              width: 100%;
+            }
+            .new-categories .new{
+
+              font-size: 20px;
+              font-family: sans-serif;
+              font-weight: bold;
+              padding: 20px;
+              margin-top: 10px;
+              margin-left: 10%;
+              background: forestgreen;
+              width: 200px;
+              color: #fff;
+              text-align: center;
+
+            }
+            .product-top .overlay-right{
+
+              display: block;
+              position: absolute;
+              top: 15%;
+              left: 35px;
+              margin-left: 0;
+              width: 30px;
+              opacity: 0;
+            }
+             .product-top:hover .overlay-right{
+
+              opacity: 1;
+              margin-left: 5%;
+              transition: 1s;
+             }
+            .product-top .overlay-right button{
+
+              border:none !important;
+              box-shadow: none!important;
+              background: #000;
+              padding: 5px;
+              margin: 5px 0;
+            }
+            .product-top .overlay-right .fa{
+
+              font-size: 20px;
+              padding: 2px;
+              text-align: center;
+              color: #fff;
+            }
+
+            .new-categories img{
+              width: 100%;
+              height: 270px;
+              transition: 1s;
+              padding: 50px 0 50px 20px;
+              cursor: pointer;
+            }
+            .new-categories img:hover{
+
+              transform: scale(1.1);
+            }
+            .new-categories .product-bottom{
+
+              text-align: center;
+            }
+            .new-categories .product-bottom .fa{
+              font-size: 15px;
+              color: green;
+            }
+            .new-categories .product-bottom h2{
+              font-size: 18px;
+              color: green;
+            }.new-categories .product-bottom h5{
+              font-size: 15px;
+              color: green;
+            }
+
+            /*----------------marketting content----------------------------*/
+            .marketting-content{
+
+              background-color: #E6E6FA;
+              padding: 30px;
+              margin: 10px 0;
+            }
+            .marketting-top-header{
+
+              text-align: center;
+              padding: 20px;
+              margin: 10px 20px;
+            }
+            .marketting-top-header h2{
+
+              font-size: 40px;
+              font-weight: bold;
+              color: forestgreen;
+              line-height: 40px;
+
+            }
+            .marketting-top-header p{
+
+              font-size: 20px;
+              line-height: 30px;
+              margin-top: 20px;
+            }
+            .marketting-content .marketting-icons{
+              text-align: center;
+              width: 100%;'
+              height: 350px;
+              padding: 40px;
+            }
+            .marketting-content .fa{
+
+              font-size: 50px;
+              color: forestgreen;
+            }
+            .marketting-content .card-title{
+
+              font-size: 25px !important;
+              text-align: center;
+            }
+
+
+            /*--------------------our partners--------------------------------------*/
+            .partners{
+
+              padding: 20px;
+              margin-top: 10px;
+            }
+            .partners .partners-header{
+
+              text-align: center;
+              padding: 20px;
+              margin: 20px 0;
+            }
+            .partners .partners-header h2{
+
+              font-size: 30px;
+              font-weight: bold;
+            }
+            .partners img{
+              width: 70%;
+              height: 100px;
+            }
+            .partners p{
+
+              font-size: 16px;
+              margin-left: 5px;
+              padding: 15px;
+              color: #000000;
+            }
+
+
+            /*--------------------Website Footer--------------------------------------*/
+            .footer{
+
+              background-color: #000;
+              color: #fff;
+              margin: 50px 0 0 0;
+              padding: 20px 10px 20px 8%;
+            }
+
+            .footer h1{
+
+              font-size: 15px;
+              margin: 10px 0;
+              color: forestgreen;
+            }
+            .footer p{
+              list-style-type: none;
+              text-decoration: none;
+              font-size: 15px;
+              padding-top: 5px;
+            }
+            .footer p a{
+
+              color: #fff;
+            }
+            .footer .fa{
+
+              font-size: 18px;
+              padding-right: 20px;
+            }
+            .footer form{
+
+              width: 300px;
+            }
+            .footer .footer-input{
+
+              width: 90%;
+              padding: 5px;
+              margin: 10px;
+            }
+            .footer .footer-textarea{
+
+              width: 90%;
+              height: 100px;
+              padding: 5px;
+              margin: 10px;
+            }
+            .footer .footer-submit{
+
+              width: 90%;
+              padding: 8px;
+              background: forestgreen;
+              border: 0;
+              margin: 3px 10px;
+              color: #fff;
+
+            }
+            .footer hr{
+
+              background-color: #ccc;
+              margin-top: 10%; 
+              opacity: 0.7;
+            }
+            .footer .download-app{
+
+              margin-top: 30px;
+              text-align: center;
+              padding: 20px;
+            }
+
+            .footer .download-app h2{
+
+              font-size: 25px;
+              margin-bottom: 20px;
+            }
+            .footer .download-app img{
+
+              width: 150px;
+              margin-right: 20px;
+            }
+            .footer .copyright{
+
+              margin: 30px 0;
+              text-align: center;
+              font-size: 20px;
+              padding: 10px;
+              line-height: 30px;
+            }
+
+            
